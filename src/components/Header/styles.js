@@ -7,10 +7,20 @@ export const Head = styled.header`
   flex-direction: column;
   align-items: center;
   background-color: #f5f5f5;
+
+  @media (min-width: 1024px) {
+    flex-direction: row;
+    justify-content: space-between;
+    height: 6rem;
+  }
 `;
 
 export const LogoDiv = styled.div`
   margin-top: 1rem;
+
+  @media (min-width: 1024px) {
+    margin-left: 1%;
+  }
 `;
 
 export const Logo = styled.img`
@@ -18,17 +28,30 @@ export const Logo = styled.img`
 `;
 
 export const Search = styled.div`
-  width: 100%;
+  width: 95%;
   display: flex;
+  border: solid;
+  border-color: #e0e0e0;
+  background-color: #fff;
+  border-radius: 9px;
   align-items: center;
   justify-content: center;
+
+  @media (min-width: 1024px) {
+    width: 25%;
+    margin-right: 1%;
+  }
+
+  @media (min-width: 1220px) {
+    width: 24%;
+    margin-right: 1%;
+  }
 `;
 
 export const Input = styled.input`
-  border-radius: 5px;
-  border: solid;
-  border-color: #e0e0e0;
-  width: 90%;
+  position: relative;
+  border: none;
+  width: 100%;
   height: 2.8rem;
 
   ::placeholder {
@@ -37,11 +60,10 @@ export const Input = styled.input`
 `;
 
 export const Button = styled.button`
-  position: absolute;
-  margin-left: 65%;
   background-color: #27ae60;
   border: none;
-  border-radius: 3px;
+  border-radius: 5px;
   color: #fff;
   height: 2.4rem;
+  margin-right: 0.3rem;
 `;
