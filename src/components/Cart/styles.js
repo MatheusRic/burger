@@ -6,7 +6,6 @@ export const CartDiv = styled.div`
   margin-left: 5%;
   background-color: #f5f5f5;
   min-height: 230px;
-  max-height: 500px;
 `;
 
 export const TitleDiv = styled.div`
