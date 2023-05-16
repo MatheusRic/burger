@@ -11,7 +11,7 @@ export const Head = styled.header`
   @media (min-width: 1024px) {
     flex-direction: row;
     justify-content: space-between;
-    height: 6rem;
+    height: 9.7rem;
   }
 `;
 

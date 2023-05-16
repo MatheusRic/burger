@@ -9,17 +9,17 @@ import {
   DivDescription,
 } from "./styles";
 
-const Product = (products) => {
+const Product = ({ product, handleClick }) => {
   return (
     <Card>
       <DivImage>
-        <Image src={products.img} alt="" />
+        <Image src={product.img} alt="" />
       </DivImage>
       <DivDescription>
-        <Title>{products.name}</Title>
-        <Category>{products.category}</Category>
-        <Price>R${products.price.toFixed(2)}</Price>
-        <AddButton>Adicionar</AddButton>
+        <Title>{product.name}</Title>
+        <Category>{product.category}</Category>
+        <Price>R${product.price.toFixed(2)}</Price>
+        <AddButton onClick={() => handleClick(product.id)}>Adicionar</AddButton>
       </DivDescription>
     </Card>
   );
