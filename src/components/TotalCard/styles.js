@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const DivTotal = styled.div`
   border: solid #e0e0e0;
   border-radius: 10px;
+
+  @media (min-width: 1440px) {
+    margin-top: 1.5rem;
+  }
 `;
 
 export const DivInfo = styled.div`

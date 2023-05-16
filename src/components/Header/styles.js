@@ -8,7 +8,7 @@ export const Head = styled.header`
   align-items: center;
   background-color: #f5f5f5;
 
-  @media (min-width: 1024px) {
+  @media (min-width: 1440px) {
     flex-direction: row;
     justify-content: space-between;
     height: 9.7rem;
@@ -18,7 +18,7 @@ export const Head = styled.header`
 export const LogoDiv = styled.div`
   margin-top: 1rem;
 
-  @media (min-width: 1024px) {
+  @media (min-width: 1440px) {
     margin-left: 1%;
   }
 `;
@@ -37,7 +37,7 @@ export const Search = styled.div`
   align-items: center;
   justify-content: center;
 
-  @media (min-width: 1024px) {
+  @media (min-width: 1440px) {
     width: 25%;
     margin-right: 1%;
   }

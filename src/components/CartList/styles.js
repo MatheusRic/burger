@@ -11,6 +11,18 @@ export const TagLi = styled.li`
 export const ImageDiv = styled.div`
   margin-left: -1rem;
   width: 40%;
+
+  @media (min-width: 760px) {
+    width: 20%;
+  }
+
+  @media (min-width: 1024px) {
+    width: 15%;
+  }
+
+  @media (min-width: 1440px) {
+    width: 30%;
+  }
 `;
 
 export const CartImage = styled.img`
@@ -23,6 +35,15 @@ export const CartDesc = styled.div`
   flex-direction: column;
   width: 50%;
   margin-right: -4rem;
+
+  @media (min-width: 760px) {
+    margin-right: 1rem;
+  }
+
+  @media (min-width: 1440px) {
+    margin-left: 1rem;
+    margin-right: -3rem;
+  }
 `;
 
 export const CartName = styled.h2`

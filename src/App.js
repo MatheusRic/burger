@@ -3,6 +3,7 @@ import ProductList from "./components/ProductList/ProductList";
 import Cart from "./components/Cart/Cart";
 import { useState, useEffect } from "react";
 import api from "./services/api";
+import "./app.css";
 
 function App() {
   const [currentSale, setCurrentSale] = useState([]);
@@ -64,13 +65,15 @@ function App() {
         filteredProducts={filteredProducts}
         setFilteredProducts={setFilteredProducts}
       />
-      <ProductList filter={filter} handleClick={handleClick} />
-      <Cart
-        currentSale={currentSale}
-        setCurrentSale={setCurrentSale}
-        cartTotal={cartTotal}
-        setCartTotal={setCartTotal}
-      />
+      <div className="Main">
+        <ProductList filter={filter} handleClick={handleClick} />
+        <Cart
+          currentSale={currentSale}
+          setCurrentSale={setCurrentSale}
+          cartTotal={cartTotal}
+          setCartTotal={setCartTotal}
+        />
+      </div>
     </div>
   );
 }

@@ -19,6 +19,10 @@ export const Card = styled.div`
   @media (min-width: 767px) {
     width: 40%;
   }
+
+  @media (min-width: 1440px) {
+    width: 30%;
+  }
 `;
 
 export const DivImage = styled.div`

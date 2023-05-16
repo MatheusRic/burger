@@ -6,6 +6,14 @@ export const CartDiv = styled.div`
   margin-left: 5%;
   background-color: #f5f5f5;
   min-height: 230px;
+  max-height: 800px;
+
+  @media (min-width: 1440px) {
+    width: 30%;
+    min-height: 100px;
+    max-height: 365px;
+    margin-right: 1.5rem;
+  }
 `;
 
 export const TitleDiv = styled.div`
@@ -40,4 +48,15 @@ export const CartUl = styled.ul`
   width: 90%;
   display: flex;
   flex-direction: column;
+
+  @media (min-width: 1440px) {
+    width: 90%;
+    min-height: 200px;
+    max-height: 200px;
+    overflow: auto;
+
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+  }
 `;
