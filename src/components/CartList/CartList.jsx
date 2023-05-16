@@ -9,7 +9,7 @@ import {
   ImageDiv,
 } from "./styles";
 
-const CartList = ({ currentSale, setCurrentSale, setCartTotal, cartTotal }) => {
+const CartList = ({ currentSale, setCurrentSale }) => {
   const removeItem = (indexAtual) => {
     setCurrentSale(currentSale.filter((elem, index) => index !== indexAtual));
   };

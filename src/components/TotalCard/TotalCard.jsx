@@ -1,13 +1,13 @@
-import { DivTotal } from "./styles";
+import { DivTotal, DivInfo, TotalText, TotalValue, RemoveAll } from "./styles";
 
 const TotalCard = ({ cartTotal, setCurrentSale }) => {
   return (
     <DivTotal>
-      <div className="info">
-        <p>Total</p>
-        <span>R${cartTotal.toFixed(2)}</span>
-      </div>
-      <button onClick={() => setCurrentSale([])}>Remover Todos</button>
+      <DivInfo>
+        <TotalText>Total</TotalText>
+        <TotalValue>R${cartTotal.toFixed(2)}</TotalValue>
+      </DivInfo>
+      <RemoveAll onClick={() => setCurrentSale([])}>Remover Todos</RemoveAll>
     </DivTotal>
   );
 };

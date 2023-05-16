@@ -23,12 +23,7 @@ const Cart = ({ currentSale, setCurrentSale, cartTotal, setCartTotal }) => {
             <CartSpan>Sua sacola esta vazia </CartSpan>
           </SpanDiv>
         ) : (
-          <CartList
-            currentSale={currentSale}
-            setCurrentSale={setCurrentSale}
-            cartTotal={cartTotal}
-            setCartTotal={setCartTotal}
-          />
+          <CartList currentSale={currentSale} setCurrentSale={setCurrentSale} />
         )}
       </CartUl>
       {currentSale.length > 0 ? (
