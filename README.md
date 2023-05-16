@@ -1,7 +1,7 @@
 # PROJETO HAMBURGUERIA
 
 
-  <img src="https://github.com/MatheusRic/burger/assets/101755789/ffc8194b-fd1a-4dd2-900b-4f41285c109d" width="658px"/>
+  <img src="https://github.com/MatheusRic/burger/assets/101755789/a37fcbb8-4347-4483-a206-bf6ed3f3d864" width="658px"/>
   <img src="https://github.com/MatheusRic/burger/assets/101755789/6f1e5e51-65f8-42bd-b73e-3ac3b03c5856" width="200px"/>
 
 Sejam bem vindos, o objetivo deste projeto, é ser uma hamburgueria online, onde é possivel, buscar por itens disponiveis, adicionar itens ao carrinho, remover os mesmos, remover todos de uma vez, ou se preferir ajustar a quantidade clicando nos botoes + ou - dos produtos.
